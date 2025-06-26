@@ -1,0 +1,3 @@
+Hello, this repo is for AWS-DevOps training program projects and study materials. and this training is provided by Ethans tech.
+
+I am devik Jagani learning this AWS-DevOps from Atul Kamble sir from Ethans tech.
