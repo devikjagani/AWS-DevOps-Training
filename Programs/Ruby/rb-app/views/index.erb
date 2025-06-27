@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <style>
+    body { font-family: Arial; background: #f0f0f0; padding: 20px; }
+    .project { background: #fff; margin: 10px 0; padding: 10px; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <h1>Hello, I'm <%= @name %></h1>
+  <p>Ruby Developer & Security Learner</p>
+  <h2>Projects</h2>
+  <% @projects.each do |project| %>
+    <div class="project"><%= project %></div>
+  <% end %>
+</body>
+</html>
